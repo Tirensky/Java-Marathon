@@ -36,7 +36,7 @@ public class Main {
         Player player6 = new Player(35);
         Player player7 = new Player(45);
         int endStamina = player4.getStamina();
-        for (int i = 0; i < endStamina - 1; i++) {
+        for (int i = 0; i < endStamina; i++) {
             player4.run();
             System.out.println(player4.getStamina());
         }
