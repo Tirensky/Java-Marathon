@@ -19,17 +19,9 @@ package day10;
 public class Main {
     public static void main(String[] args) {
         Tree tree = new Tree();
-        tree.add(5);
-        tree.add(8);
-        tree.add(6);
-        tree.add(8);
-        tree.add(2);
-        tree.add(9);
-        tree.add(7);
-        tree.add(4);
-        tree.add(10);
-        tree.add(3);
-        tree.add(1);
+        for (int i = 0; i < 10; i++) {
+            tree.add((int) (Math.random() * 15 + 1));
+        }
         tree.printTree();
 
         Node found = tree.findByValue(4);
