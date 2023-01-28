@@ -25,7 +25,7 @@ public class Main {
         String path = "src/day14/task2";
         File directory = new File(path);
         File file = new File(directory, "/people.txt");
-//        // write it once to create file in 'day14.task1' dir
+//        // write it once to create file in 'day14.task2' dir
 //        try {
 //            directory.mkdirs();
 //            file.createNewFile();
